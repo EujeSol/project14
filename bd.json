@@ -1,0 +1,20 @@
+{
+  "notes": [
+    {
+      "id": 2,
+      "date": "19.05.2021",
+      "time": "15:48:15",
+      "name": "Заметка",
+      "text": "Заметка, Заметка, Заметка",
+      "editStatus": false
+    },
+    {
+      "id": 4,
+      "date": "19.05.2021",
+      "time": "15:48:34",
+      "name": "Note",
+      "text": "Note. Note. Note.",
+      "editStatus": false
+    }
+  ]
+}

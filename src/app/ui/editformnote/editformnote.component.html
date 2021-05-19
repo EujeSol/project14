@@ -1,0 +1,29 @@
+<div class="container">
+    <form class="form-input"
+          [formGroup]="noteForm">
+        <div class="raw">
+            <div class="col-12">
+                <h4>Редактировать заметку</h4>
+            </div>
+        </div>
+        <p class="input-name">Название заметки:</p>
+        <input class="note-name-form"
+         type="text"
+          [(ngModel)]="edNote.name"
+          name="note name"
+          formControlName="title">
+        <div>
+            <textarea class="note-form" 
+            [(ngModel)]="edNote.text"
+             name="note" 
+             id="note"
+             formControlName="text"></textarea>
+        </div>
+
+        <button 
+        (click)="onEditNote(edNote.id)"
+        class="add-btn"
+        [disabled]="noteForm.invalid">Закончить редактирование</button>
+    </form>
+
+</div>

@@ -1,0 +1,35 @@
+.note-field
+{
+    margin: 10px;
+    padding: 20px;
+    width: 400px;
+    background-color: antiquewhite;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+}
+
+.date-text
+{
+    font-size: 12px;
+    text-align: end;
+}
+
+.delete-btn
+{
+    position: relative;
+    margin-left: 10px;
+    left: 40%;
+    border-radius: 10px;
+    background: none;
+    color: crimson;
+}
+
+.delete-btn:hover {
+    background-color: crimson;
+    color: white;
+}
+.note-name
+{
+    text-align: center;
+}

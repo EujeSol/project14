@@ -1,0 +1,10 @@
+<div class="note-field">
+    <p class="date-text"><i> Заметка опубликована {{note.date}} в {{note.time}}</i></p>
+    <p class="note-name"><b>Название заметки:</b> {{note.name}}</p>
+    <p>{{note.text}}</p>
+    <div class="buttons">
+        <button (click)="onDeleteNote(note.id)" class="delete-btn">Удалить</button>
+        <button (click)="onChangeEditStatus(note.id)" class="delete-btn">Редактировать</button>
+    </div>
+   
+</div>

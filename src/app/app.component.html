@@ -1,0 +1,27 @@
+<div class="container">
+
+  <app-addformnote (addNote)="onAddNote($event)"></app-addformnote>
+
+  <div class="note-title">
+    <h2>Заметки:</h2>
+</div>
+
+  <div *ngFor="let item of notes ">
+    <div *ngIf=" item.editStatus === false;else elseBlock">
+    
+      <app-note 
+        [note]="item"
+        (deleteNote)="onDeleteNote($event)"
+        (changeEditStatus)="onChangeEditStatus($event)"
+      ></app-note>
+    </div>
+
+    <ng-template #elseBlock>
+      <app-editformnote
+      [edNote] = "item"
+      (editNote)="onEdNote($event)"></app-editformnote>
+
+    </ng-template>
+    
+  </div>
+</div>

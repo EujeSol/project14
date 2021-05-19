@@ -1,0 +1,55 @@
+.input-name {
+    display: inline;
+}
+
+.form-input {
+    margin: 10px;
+    padding: 20px;
+    width: 400px;
+    background-color: antiquewhite;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.note-form {
+    margin: 10px;
+    width: 80%;
+    border-color: brown;
+    border-radius: 10px;
+    height: 150px;
+}
+
+.note-name-form {
+    margin: 10px;
+    width: 150px;
+    border-color: brown;
+    border-radius: 10px;
+    border: solid 1px;
+}
+
+.note-name-form:focus
+{
+    border-style: dotted;
+    outline: none;
+}
+.note-form:focus
+{
+    border-style: dotted;
+    outline: none;
+}
+.add-btn
+{
+    position: relative;
+    left: 20%;
+    border-radius: 10px;
+    background: none;
+    color: crimson;
+}
+
+.add-btn:hover
+{
+    background-color: crimson;
+    color: white;
+}
